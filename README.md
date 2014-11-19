@@ -7,6 +7,12 @@ The font is adapted from San Francisco – Apple’s new typeface for the Apple 
 ![example](http://wellsosaur.us/Ybic/Example.png)
 
 ## How to Install:
+### Using `brew-cask`
+
+    $ brew tap thii/fonts
+    $ brew cask install font-sanfrancisco
+
+### Manually
 1. [Download the zipped font files](https://github.com/wellsriley/YosemiteSanFranciscoFont/archive/master.zip).
 2. Copy the 6 font files to `/Library/Fonts` on your Mac. *(protip: press `cmd+shift+g` while in Finder to type the path directly.)*
 3. Run `sudo chown root:wheel /Library/Fonts/System\ San\ Francisco*` to set the proper ownership of the font files.
@@ -14,6 +20,11 @@ The font is adapted from San Francisco – Apple’s new typeface for the Apple 
 5. Log out and log back in to apply the changes.
 
 ## How to Uninstall:
+### If you installed it using `brew-cask`
+
+    $ brew cask uninstall font-sanfrancisco
+
+### If you installed it manually
 1. Navigate to `/Library/Fonts` on your Mac and delete the 6 files starting with `System San Francisco`.
 2. Log out and log back in to apply the changes.
 
